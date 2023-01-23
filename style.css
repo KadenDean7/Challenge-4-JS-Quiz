@@ -1,0 +1,34 @@
+.card{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header h2{
+    display: inline-block;
+}
+
+ul{
+    padding: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+.start-btn{
+    border: none;
+    background-color: lightblue;
+    color: white;
+    font-size: 23px;
+}
+ 
+.btn{
+    border:none;
+    background-color: white;
+    color: lightblue;
+    font-size:25px;
+    font-weight: bolder;
+}
