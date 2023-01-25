@@ -7,3 +7,4 @@ I still do need to add the the leaderboard, add more questions, add some
 other small things, and update the css to make the buttons for the answers 
 more visible 
 ## Link
+Link to page: https://kadendean7.github.io/Challenge-4-JS-Quiz/
