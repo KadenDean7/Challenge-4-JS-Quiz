@@ -47,6 +47,7 @@ const quizQuestions = [{
     correctAnswer: "a"
 
 }
+//need to add more questions
 
 
 ];
@@ -89,8 +90,10 @@ function appendQuestion(currentQuestion){
 //shows the previos scores
 function showScores(){
     console.log("Hello World!")
+    //use local storage to keep track of the score and show them on a leaderboard
 
 }
+
 //get start button press
 startBtn.addEventListener("click", startQuiz);
 highscoreBtn.addEventListener("click", showScores);
