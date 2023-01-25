@@ -12,15 +12,29 @@
                 <button id = "highscore" class = "btn">View Highscores</button>
             </ul>
             <ul>
-                Time: 
+                <div id ="timer">
+                    <p>Timer: 60</p>
+                </div>
             </ul>
         </header>
         <div class = "card">
-            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds</p>
+            <div id ="body-paragraph">
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds</p>
+            </div>
             <div class="card-button">
                 <button id = "start-quiz" class = "start-btn">Start Quiz</button>
             </div>
+            <div id="question"></div>
+            <div class="answers">
+                    <button id="answerOne" class="question-btn"></button>
+                    <button id="answerTwo" class="question-btn"></button>
+                    <button id="answerThree" class="question-btn"></button>
+                    <button id="answerFour" class="question-btn"></button>
+            </div>
+            
         </div>
         
     </div>
+    <script src="script.js"></script>
   </body>
+</html>

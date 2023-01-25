@@ -32,3 +32,15 @@ p{
     font-size:25px;
     font-weight: bolder;
 }
+
+.question{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.question-btn{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
